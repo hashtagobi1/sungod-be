@@ -27,6 +27,14 @@ export default defineField({
       type: 'hero.home',
       group: 'editorial',
     }),
+    // Announcements
+    defineField({
+      name: 'announcements',
+      title: 'Announcements',
+      type: 'array',
+      of: [{type: 'string'}],
+      group: 'editorial',
+    }),
     // Modules
     defineField({
       name: 'modules',
